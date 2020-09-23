@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to left, pink, red);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.level-container {
+    height: 590px;
+    width: 590px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.level-container div {
+    height: 59px;
+    width: 59px;
+    cursor: pointer;
+}
+
+.scoreboard {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    text-align: right;
+}
